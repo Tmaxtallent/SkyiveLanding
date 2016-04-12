@@ -49,7 +49,7 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url('/assets/images/header.jpg');
+    background-image: url('assets/images/header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 115vh;
