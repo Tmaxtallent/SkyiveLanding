@@ -222,9 +222,6 @@ a:focus {
 #mission h4 {
     font-size: 20px;
 }
-#mission p {
-    margin-bottom: 10px;
-}
 @media screen and (max-height: 700px) {
     #mission {
         margin-top: 70px;
