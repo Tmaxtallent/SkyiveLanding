@@ -1,0 +1,386 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+    height: 100%;
+    background: url(../img/whiteroomCrop.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 65px;
+    margin-bottom: 30px;
+    color: rgba(191, 10, 48, 1);
+}
+@media screen and (max-width: 995px) {
+    body {
+        background: url(../img/whiteroomMobile.jpg);
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.carousel-caption {
+    height: 100%;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+}
+img.logo {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
+h1.brand-heading {
+    text-align: center;
+    color: rgba(191, 10, 48, 1);
+}
+a {
+    color: #42dca3;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: rgba(0,40,104,.1);
+}
+.light {
+    font-weight: 400;
+}
+.navbar {
+    margin-top: 15px;
+    background-color: transparent;
+}
+.navbar-custom {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+}
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    background-color: rgba(0,40,104,0.8)
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-custom a {
+    color: rgba(0,40,104,.8);
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar-custom .nav li a {
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    color: rgba(0,40,104,.8);
+    background: rgba(0,40,104,0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    background: rgba(0,40,104,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 2px rgba(0,0,0,0.48);
+}
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    background-color: rgba(0,40,104,0.8);
+    color: white;
+}
+.navbar-collapse.collapse.in {
+    background-color: #fff;
+}
+.navbar-collapse.collapsing {
+    background-color: #fff;
+}
+#logoSmall {
+    opacity: 0;
+    transition: .5s ease-in-out;
+    margin-top: -20px;
+}
+.showLogo {
+    opacity: 1 !important;
+}
+.logo {
+    margin-top: 2000px;
+}
+@media screen and (max-height: 700px) {
+    img.logo {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .navbar-header #logoSmall {
+        width: 75px;
+        height: 33px;
+        margin-top: -7px;
+    }
+    .logo {
+        margin-top: 100px !important;
+        width: 65%;
+        height: 65%;
+    }
+}
+.socialMediaWrapper {
+    margin-top: 100px;
+}
+.socialMedia {
+    margin-top: 40px;
+    text-align: center;
+}
+.socialMedia img {
+    width: 40px;
+    height: 40px;
+}
+.socialMedia a {
+    opacity: 1;
+}
+.socialMedia a:hover {
+    opacity: 0.6;
+}
+#mission {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 7%;
+}
+#mission.container {
+    width: 100%;
+    height: 100%;
+}
+#mission .wrapper {
+    height: 100%;
+}
+#mission .box {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+    background-color: rgba(0,40,104,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+#mission h3 {
+    font-size: 35px;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgba(0,40,104,1);
+}
+#mission h4 {
+    font-size: 20px;
+}
+#mission p {
+    margin-bottom: 10px;
+}
+@media screen and (max-height: 700px) {
+    #mission {
+        margin-top: 70px;
+        overflow-y: scroll !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    #mission {
+        margin-top: 70px;
+        font-size: 18px;
+    }
+    #mission .box {
+        margin-top: 15px;
+    }
+    #mission h3 {
+        font-size: 25px;
+    }
+    #mission h4 {
+        font-size: 16px;
+    }
+    #mission .box {
+        width: 60%;
+        margin: auto;
+        padding: 0px;
+    }
+}
+#team {
+    margin-top: 7%;
+    text-align: center;
+}
+#team p {
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+#team .card img {
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+}
+#team .card h3 {
+    font-size: 22px;
+}
+#team .card h4 {
+    font-size: 15px;
+}
+@media screen and (max-height: 700px) {
+    #team {
+        margin-top: 70px;
+        padding-bottom: 100px;
+        overflow-y: scroll !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    #team {
+        font-size: 18px;
+        margin-top: 70px;
+        padding-bottom: 150px;
+        overflow-y: scroll !important;
+    }
+}
+#contact {
+    margin-top: 7%;
+    width
+}
+#emailForm label {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgba(191, 10, 48, 1);
+}
+.contactInput {
+    font-weight: 100;
+    width: 100%;
+    padding: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: 18px;
+    /*background-color: rgba(191, 10, 48, 0.5);*/
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.12);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.contactInput.area {
+    width: 100%;
+    height: 100px;
+    text-align: left;
+}
+.contactInput:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.12);
+}
+.contactInput:focus, .contactInput:active {
+    border-color: rgba(191, 10, 48, 0.2);
+    outline: none;
+}
+.contactInput.send {
+    width: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    padding: 12px;
+    color: rgba(191, 10, 48, 1)
+}
+@media screen and (max-height: 780px) {
+    #emailForm label {
+        font-size: 14px;
+    }
+    .contactInput {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .contactInput.area {
+        height: 100px;
+    }
+    .contactInput.send {
+        font-size: 12px;
+        padding: 10px;
+    }
+    #contact {
+        margin-top: 70px;
+        overflow-y: scroll !important;
+        padding-bottom: 85px;
+    }
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+.footer .copyright {
+    opacity: 0.4;
+    margin-left: 10px;
+    margin-bottom: -35px;
+    width: 50%;
+}
+.footer .socialMedia {
+    float: right;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+.footer .socialMedia img {
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+.footer .socialMeida img:hover {
+    opacity: 0.4;
+}
+.footer .socialMedia .footSocial {
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
