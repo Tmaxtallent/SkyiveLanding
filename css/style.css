@@ -290,7 +290,8 @@ a:focus {
     margin-top: 7%;
     width
 }
-#emailForm label {
+.emailForm label {
+    margin-top: 15px;
     font-size: 25px;
     font-weight: 100;
     color: rgba(191, 10, 48, 1);
@@ -324,6 +325,8 @@ a:focus {
     outline: none;
 }
 .contactInput.send {
+    margin-top: 20px;
+    margin-bottom: 50px;
     width: 100%;
     background-color: #fff;
     font-size: 18px;

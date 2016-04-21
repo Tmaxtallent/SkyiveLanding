@@ -181,6 +181,41 @@
                             <h2 class="text-center">Contact The Team</h2>
                         </div>
                         <div class="row emailForm">
+                            <form id="form1" name="form1" class="wufoo topLabel page emailForm" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+                                  action="https://skyive.wufoo.com/forms/zxlxrei1dg07sb/#public">
+
+                            <label class="desc" id="title7" for="Field7">Your Name *</label>
+                            <input id="Field7" name="Field7" type="text" class="field text medium contactInput" value="" maxlength="255" tabindex="1" onkeyup=""       required />
+
+                            <label class="desc" id="title3" for="Field3">Your Email *</label>
+                            <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium contactInput" value="" maxlength="255" tabindex="3"       required />
+
+                            <label class="desc" id="title4" for="Field4">Your Phone Number</label>
+                            <input id="Field4" class="field text medium contactInput" name="Field4" tabindex="4" type="tel" maxlength="255" value="" />
+
+                            <label class="desc" id="title5" for="Field5">Your Message *</label>
+
+                            <textarea id="Field5"
+                            name="Field5"
+                            class="field textarea medium contactInput area"
+                            spellcheck="true"
+                            rows="10" cols="50"
+
+                            tabindex="5"
+                            onkeyup=""
+                                  required  ></textarea>
+                            <div class="col-md-4 col-md-offset-4">
+                                <input id="saveForm" name="saveForm" class="btTxt submit contactInput send" type="submit" value="Submit"/>
+                            </div>
+
+                            <li class="hide">
+                            <label for="comment">Do Not Fill This Out</label>
+                            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                            <input type="hidden" id="idstamp" name="idstamp" value="kiKoIvkoosWX0+SMmq9/YpGZz9cx9AmL5LELcC4+1Sw=" />
+                            </li>
+                            </ul>
+                            </form>
+                            <!--
                             <form id="emailForm" action="submit.php" method="post" enctype="text/plain">
                                 <label>Your Name</label><br>
                                 <input type="text" name="name" placeholder="" class="contactInput"><br><br>
@@ -194,6 +229,7 @@
                                     <input type="submit" name="submit" value="Send Message" class="contactInput send"></input>
                                 </div>
                             </form>
+                            -->
                         </div>
                     </div>
                 </div>
@@ -204,7 +240,8 @@
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!-- Contact Form JavaScript -->
+    <script src="js/wufoo.js"></script>
     <script>
     $('.carousel').carousel({
         interval: false
