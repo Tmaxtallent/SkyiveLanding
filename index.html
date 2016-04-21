@@ -124,10 +124,10 @@
                                 <p>Make scholarships simple so students can find money for college and organizations can focus on fundraising and mentorship.  Together we will increase college access.</p>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h3><span id="odometerStud">0</span>+<br>Students Helped</h3>
+                                        <h3><span id="odometerStud">200</span>+<br>Students Helped</h3>
                                     </div>
                                     <div class="col-md-6">
-                                        <h3><span id="odometerScholar">0</span><br>Scholarships</h3>
+                                        <h3><span id="odometerScholar">4</span><br>Scholarships</h3>
                                     </div>
                                 </div>
                             </div>
@@ -228,6 +228,10 @@
     <!-- Contact Form JavaScript -->
     <script src="js/wufoo.js"></script>
     <script>
+    $(document).ready(function() {
+        $('#odometerStud').html('0');
+        $('#odometerScholar').html('0');
+    });
     $('.carousel').carousel({
         interval: false
     });
@@ -235,7 +239,7 @@
         ///////
         $('.nav-collapse').collapse('hide');
         setTimeout (function(){
-            // 700ms delay as active class is not added until after
+            // 1200ms delay as active class is not added until after
             // the full slide animation has ended.
             // fade in/out top skyive small logo and footer social media links
             currentIndex = $('div.active').index();
@@ -264,7 +268,7 @@
                     }
                 }, 2);
             }
-        }, 700);
+        }, 1200);
     });
     </script>
 <script>
